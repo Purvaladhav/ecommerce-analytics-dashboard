@@ -1,4 +1,3 @@
-```python
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -110,4 +109,3 @@ if 'price' in df.columns:
 # =========================
 st.subheader("📋 Sample Data")
 st.dataframe(df.head(100))
-```
